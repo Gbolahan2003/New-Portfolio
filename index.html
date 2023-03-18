@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- all.css loads all styles and icons -->
+    <link
+      href="/your_path_to_version_6_compiled_files/css/fontawesome.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&family=Cormorant+Garamond:wght@400;500;700&family=Kurale&family=Lato:wght@400;700&family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Rubik:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,200;1,400&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="second.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <title>My Portfolio</title>
+  </head>
+  <body class="theme_dark">
+    <header class="header">
+      <div class="logo">
+        <ion-icon class="header-icon" name="cog-outline"></ion-icon>
+      </div>
+      <nav class="nav hide animate__animated animate__fadeInDown">
+        <ul class="nav-list">
+          <li class="nav-link li-1 animate__animated animate__bounce">
+            <a class="link" href="#About">About</a>
+          </li>
+          <li class="nav-link li-2 animate__animated animate__bounce">
+            <a class="link" href="#Experience">Experience</a>
+          </li>
+          <li class="nav-link li-3 animate__animated animate__bounce">
+            <a class="link" href="#Projects">projects</a>
+          </li>
+          <li class="nav-link con">
+            <a class="contact" href="mailto:matthewarowosegbe4@gmail.com"
+              >contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="pre-hero section">
+      <div class="settings-menu">
+        <div class="date-container">
+          <span id="hours">00</span>
+          <span>:</span>
+          <span id="minute">00</span>
+          <span>:</span>
+          <span id="seconds">00</span>
+          <span id="session">AM</span>
+        </div>
+        <div class="toogle-song">
+          <audio id="song" src="Post-Malone-Swae-Lee-Sunflower.mp3"></audio>
+          <div class="freqency">
+            <div class="spinner">
+              <span class="spin"></span>
+              <span class="spin"></span>
+              <span class="spin"></span>
+              <span class="spin"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- her section -->
+    <section id="About" class="section">
+      <div class="hero">
+        <div class="hero-text animate__animated animate__fadeInUp">
+          <p class="hey">My name is</p>
+          <div class="text-name">
+            <span id="text" class="about-text hidden"></span>
+            <div class="cur"></div>
+          </div>
+          <div class="about-text-2">
+            I am an experienced <strong>frontend developer</strong>from the
+            <strong>Univerity of Lagos</strong> adept at developing visually
+            engaging and <strong>responsive</strong> user interfaces with
+            proficiency in <strong>HTML</strong>, <strong>CSS</strong>,
+            <strong>SASS</strong> and <strong>JavaScript</strong>. Passionate
+            about creating user-friendly and accessible
+            <strong>websites</strong> and <strong>Web-applications</strong>,
+            with a focus on optimizing performance and user experience.
+            Continuously staying up to date with the latest technologies and
+            design trends to create innovative solutions for clients.
+          </div>
+          <div class="phone">
+            <div
+              class="phone-number animate__animated animate__fadeInDown contact"
+            >
+              <a
+                href="tel:+2347046226782"
+                style="text-decoration: none; color: #fff"
+                ><span class="phone-svg"
+                  ><ion-icon name="call-outline"></ion-icon
+                ></span>
+                <span class="phone-text">contact me</span></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="hero-display animate__animated animate__fadeInUp">
+          <div class="cube">
+            <div class="topD"></div>
+            <div>
+              <span style="--i: 0"></span>
+              <span style="--i: 1"></span>
+              <span style="--i: 2"></span>
+              <span style="--i: 3"></span>
+            </div>
+
+            <div class="cube2">
+              <div>
+                <span style="--i: 0"></span>
+                <span style="--i: 1"></span>
+                <span style="--i: 2"></span>
+                <span style="--i: 3"></span>
+              </div>
+
+              <div class="cube3">
+                <div class="top3"></div>
+                <div>
+                  <span style="--i: 0"></span>
+                  <span style="--i: 1"></span>
+                  <span style="--i: 2"></span>
+                  <span style="--i: 3"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="span border"></div>
+    <section id="Experience" class="experience hidden">
+      <div class="experiences-div">
+        <div class="experience-par time animate__animated animate__fadeInLeft">
+          <span class="experience-text"> My Experiences </span>
+          <div class="experince-two">
+            As an intern at
+            <strong>Integrated Software Services Solutions Limited</strong>, I
+            had the opportunity to work as a
+            <strong>frontend developer</strong>, utilizing my skills in HTML,
+            CSS, and JavaScript to develop and improve the user interfaces of
+            various software products. I worked on
+            <strong>projects</strong> that involved creating responsive and
+            visually appealing interfaces that provided seamless user
+            experiences. Working in a team with
+            <strong>experienced developers</strong>, I was able to learn new
+            techniques and strategies for developing efficient and effective
+            <strong>software solutions</strong>. Additionally, I was involved in
+            conducting code reviews and testing, ensuring that the software
+            products we developed met high standards of quality and performance.
+          </div>
+          <div class="div">My Skills:</div>
+          <ul class="my-skills">
+            <li class="ta animate__animated animate__fadeInRight">HTML</li>
+            <li class="tb animate__animated animate__fadeInRight">CSS</li>
+            <li class="tc animate__animated animate__fadeInRight">SASS</li>
+            <li class="td animate__animated animate__fadeInRight">
+              JavaScript
+            </li>
+            <li class="te animate__animated animate__fadeInRight">REACT</li>
+            <li class="tf animate__animated animate__fadeInRight">MYSQL</li>
+          </ul>
+        </div>
+        <div class="my-image time animate__animated animate__fadeInRight">
+          <div class="image">
+            <img src="./my picture.jpeg" alt="my picture" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Projects" class="projects">
+      <div class="project-box">
+        <span class="note">My projects</span>
+      </div>
+      <div class="the-main hidden">
+        <div class="card ca animate__animated animate__fadeInUp">
+          <p class="pro">PROJECT 1</p>
+          <p>please view in Desktop mode</p>
+          <button class="button">
+            <a href="http://leonemappty.netlify.app/">click here</a>
+          </button>
+        </div>
+        <div class="card cb animate__animated animate__fadeInUp">
+          <p class="pro">PROJECT 2</p>
+          <p>please view in Desktop mode</p>
+          <button class="button">
+            <a href="http://matthewbankistproject.netlify.app/">click here</a>
+          </button>
+        </div>
+
+        <div class="card cc animate__animated animate__fadeInUp">
+          <p class="pro">PROJECT 3</p>
+          <p>Available in mobile mode</p>
+          <button class="button">
+            <a href="https://matthew-omnifood.netlify.app/">click here</a>
+          </button>
+        </div>
+        <div class="card cd animate__animated animate__fadeInUp">
+          <p class="pro">PROJECT 4</p>
+          <p>Available in mobile mode</p>
+          <button class="button">
+            <a class="p" href="http://matthewproject1.netlify.app/"
+              >click here</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="Footer">
+      <footer>
+        <div class="follow">
+          <div class="contact-me">Contact me through :</div>
+          <div class="emojis">
+            <div class="github">
+              <a href="https://github.com/Gbolahan2003">
+                <ion-icon name="logo-github"></ion-icon
+              ></a>
+            </div>
+            <div class="link">
+              <a
+                href="https://www.linkedin.com/in/matthew-arowosegbe-228276248/"
+              >
+                <i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <!-- <div class="indeed"></div> -->
+            <div class="whatsapp">
+              <a href="tel+2347046226782"
+                ><ion-icon name="logo-whatsapp"></ion-icon
+              ></a>
+            </div>
+            <div class="email">
+              <a href="mailto:matthewarowosegbe4@gmail.com"
+                ><ion-icon name="mail-outline"></ion-icon
+              ></a>
+            </div>
+            <div class="phone">
+              <div
+                class="phone-number animate__animated animate__fadeInDown contact"
+              >
+                <a
+                  href="tel:+2347046226782"
+                  style="text-decoration: none; color: #fff"
+                  ><span class="phone-svg"
+                    ><ion-icon name="call-outline"></ion-icon
+                  ></span>
+                  <span class="phone-text">contact me</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="animate.js"></script>
+    <script>
+      let i = 0;
+
+      const text = "AROWOSEGBE GBOLAHAN";
+
+      function typing() {
+        if (i < text.length) {
+          document.getElementById("text").innerHTML += text.charAt(i);
+          i++;
+          setTimeout(typing, 300);
+        }
+      }
+      typing();
+    </script>
+  </body>
+</html>
